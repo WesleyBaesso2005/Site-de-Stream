@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./logo.webp" alt="">
+        <h1>Universal Stream</h1>
+    </header>
+    <ul class="nav">
+        <li class="bar"><a href="./Home.html">Home</a></li>
+        <li class="bar"><a href="./Catalogo.html">Catalogo</a></li>
+        <li class="bar"><a class="active" href="./Entrar.html">Entrar</a></li>
+    </ul>
+    <br>
+    <form action="">
+        <label for="">Nome Completo: </label>
+        <input type="text" placeholder="Adicione Um Nome..">
+        <br><br>
+
+        <label for="idade">Idade: </label>
+        <input list="idade" name="idade" placeholder="Selecione sua idade.." >
+        <datalist id="idade">
+            <option value="18 - 30"></option>
+            <option value="31 - 40"></option>
+            <option value="41 - 50"></option>
+            <option value="51 - 70"></option>
+            <option value="70 - Supeior"></option>
+        </datalist>
+        <br><br>
+
+        <label for="">Cidade: </label>
+        <input list="cidade" name="cidade" placeholder="Selecione sua Região.." >
+        <datalist id="cidade">
+            <option value="Sudeste"></option>
+            <option value="Nordeste"></option>
+            <option value="Sul"></option>
+            <option value="Norte"></option>
+            <option value="Centro-Oeste"></option>
+        </datalist>
+        <br><br>
+
+        <label for="">Gênero</label>
+        <input list="genero" name="genero" placeholder="Selecione seu gênero">
+        <datalist id="genero">
+            <option value="Feminino"></option>
+            <option value="Masculino"></option>
+            <option value="Prefiro não dizer"></option>
+        </datalist>
+        <br><br>
+
+        <label for="">CPF:</label>
+        <input type="number" placeholder=" ___.___-__">
+
+        <br><br>
+        <label for="">Email: </label>
+        <input type="text" placeholder="Escreva seu email...">
+    </form>
+
+    <hr>
+        <h1 class="h1">Planos</h1>
+        <div class="col" >
+            <ul class="price-box">
+                <li class="header">Basico</li>
+                <li><strong>R$ 15,00</strong> / ao mês</li>
+                <li><strong>Boa</strong> qualidade do vídeo</li>
+                <li><strong>480p</strong> Resolução</li>
+                <li><strong>1</strong> Tela Simultânea</li>
+                <li><a href="#" class="btn">Selecione</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="price-box">
+                <li class="header">Simples</li>
+                <li><strong>R$ 25,00</strong> / ao mês</li>
+                <li><strong>Melhor</strong> qualidade do vídeo</li>
+                <li><strong>1080p</strong> Resolução</li>
+                <li><strong>2</strong> Tela Simultânea</li>
+                <li><a href="#" class="btn">Selecione</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="price-box">
+                <li class="header">Premium</li>
+                <li><strong>R$ 45,00</strong> / ao mês</li>
+                <li><strong>Superior</strong> qualidade do vídeo</li>
+                <li><strong>4K + HDR</strong> Resolução</li>
+                <li><strong>4</strong> Tela Simultânea</li>
+                <li><a href="#" class="btn">Selecione</a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        
+        <footer><br><br> Desenvolvimento Web | Intituto de Oportunidade Social &copy; | Wesley Baesso </footer>
+        <input class="input" type="submit">
+
+       
+</body>
+</html>
